@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #eef2f7;
+}
+
+.app {
+  max-width: 720px;
+  margin: auto;
+  padding: 15px;
+}
+
+.header {
+  text-align: center;
+  color: #1f3c88;
+}
+
+.chat-box {
+  background: #fff;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user {
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.ai {
+  color: #1f3c88;
+  margin-bottom: 10px;
+}
+
+.input-box input,
+.input-box textarea,
+.input-box button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+}
